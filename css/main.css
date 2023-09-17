@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+    color: rgb(210, 210, 210);
+}
+
+.header {
+    background-color: rgb(50, 50, 50);
+}
+
+.header * {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.header a:hover {
+    background-color: rgb(0, 0, 160);
+}
+
+#homeText {
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    max-width: 90%;
+    margin: auto;
+}
